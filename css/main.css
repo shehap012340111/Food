@@ -237,8 +237,10 @@ section {
   .navbar > .nav-btn {
     display: inline-block;
     position: absolute;
-    left: 10px;
-    top: calc(50% - 25px);
+    right: 10px;
+    background-color: #000000a1;
+    border-radius: 10px;
+    top: calc(50% - 30px);
   }
   .navbar>.nav-header>.nav-title{
     margin-right: auto;
@@ -397,6 +399,7 @@ section {
   border-radius: 10px;
   border: var(--main_borderColor);
   text-align: center;
+  margin: 10px 0;
 }
 .S2_home .box img{
   width: 100px;
@@ -1316,12 +1319,31 @@ background-color: #000 !important;
 .Categorie .ssaa{
   width: 50% !important;
 }
+.button-group {
+  flex-direction: column;
+}
+.S4_home .S4_home_cont{
+  height: auto !important;
+}
+.top_foot .sochial {
+  flex-wrap: wrap;
+}
+.footer{
+  padding: 20px !important;
+}
+.top_foot{
+  transform: translateY(-50px );
+}
  }
 
 
  @media screen and (min-width:768px) and (max-width:1023px){
 .Categorie .ssaa{
   width: 33.333% !important;
+}
+
+.S4_home_cont{
+  height: auto !important;
 }
   
  }

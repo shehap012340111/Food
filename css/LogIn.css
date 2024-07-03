@@ -1,22 +1,4 @@
-@import "compass/css3";
- *, *:before, *:after {
-	 box-sizing: border-box;
-}
- html {
-	 overflow-y: scroll;
-}
- body {
-	 background: #c1bdba;
-	 font-family: 'Titillium Web', sans-serif;
-}
- a {
-	 text-decoration: none;
-	 color: #1ab188;
-	 transition: 0.5s ease;
-}
- a:hover {
-	 color: #179b77;
-}
+
  .form {
 	 background: rgba(19, 35, 47, .9);
 	 padding: 40px;
@@ -49,11 +31,11 @@
 	 transition: 0.5s ease;
 }
  .tab-group li a:hover {
-	 background: #179b77;
+	 background: #FF4191;
 	 color: #fff;
 }
  .tab-group .active a {
-	 background: #1ab188;
+	 background: #FF4191;
 	 color: #fff;
 }
  .tab-content > div:last-child {
@@ -71,7 +53,6 @@
 	 left: 13px;
 	 color: rgba(255, 255, 255, .5);
 	 transition: all 0.25s ease;
-	 -webkit-backface-visibility: hidden;
 	 pointer-events: none;
 	 font-size: 22px;
 }
@@ -105,7 +86,7 @@
 }
  input:focus, textarea:focus {
 	 outline: 0;
-	 border-color: #1ab188;
+	 border-color: #FF4191;
 }
  textarea {
 	 border: 2px solid #a0b3b0;
@@ -137,20 +118,19 @@
 	 font-weight: 600;
 	 text-transform: uppercase;
 	 letter-spacing: 0.1em;
-	 background: #1ab188;
+	 background: #FF4191;
 	 color: #fff;
 	 transition: all 0.5s ease;
-	 -webkit-appearance: none;
+
 }
  .button:hover, .button:focus {
-	 background: #179b77;
+	 background: #FF4191;
 }
  .button-block {
 	 display: block;
 	 width: 100%;
 }
- .forgot {
-	 margin-top: -20px;
-	 text-align: right;
+.forgot {
+	margin-top: -20px;
+	text-align: right;
 }
- 
